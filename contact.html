@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>風灯:お問い合わせ</title>
+    <link rel="icon" href="fabicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/contact.js" defer></script>
+    <script src="js/common.js" defer></script>
+    
+</head>
+
+<body>
+    <div id="loading_sub"></div>
+    <div class="first_swich">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="hamb_menu is_invisible">
+        <nav class="wrapper">
+            <img class="hamb_img" src="img/top/ryokan_hamb.png" alt="メニューイメージ">
+            <div class="hamb_text">
+                <p class="hamb_ja">
+                    灯りに寄り添う<br>&nbsp;&nbsp;&nbsp;やすらぎの刻
+                </p>
+                <p class="hamb_en">
+                    Serenity in the Warmth of Light
+                </p>
+            </div>
+            <ul>
+                <p class="contents">Contents</p>
+                <li class=""><a href="index.html">トップページ</a></li>
+                <li class=""><a href="oheya.html">お部屋</a></li>
+                <li class=""><a href="ohuro.html">お風呂</a></li>
+                <li class=""><a href="syokuzi.html">お食事</a></li>
+                <li class="now_ham"><a href="contact.html">お問い合わせ</a></li>
+
+            </ul>
+            <div class="menu_logo">
+                <div class="logo_hamb">
+                    <img src="img/logo2.png" alt="メニューイメージ">
+                </div>
+                <div class="hamb_desc">
+                    <p class="accses">Accses</p>
+
+                    <p>XXX県　XXX市</p>
+                    <p>XXX市 XXX町１－１－１</p>
+                    <a class="yoyaku_top" href="mente.html">予約する</a>
+                    <a class="yoyaku_top" href="mente.html">028-XXX-XXX<span>(10:00 ~ 17:00)</span></a>
+                </div>
+            </div>
+            <div class="hamb_swich">
+                <span class="over"></span>
+                <span class="under"></span>
+            </div>
+        </nav>
+
+    </div>
+
+    <header id="header" class="header is_invisible">
+
+        <nav>
+            <a class="test" href="index.html"><img class="header_img" src="img/logo2.png" alt="メニューイメージ"></a>
+            <ul>
+                <li class=""><a href="oheya.html">お部屋</a></li>
+                <li class=""><a href="ohuro.html">お風呂</a></li>
+                <li class=""><a href="syokuzi.html">お食事</a></li>
+                <li class="now_header"><a href="contact.html">お問い合わせ</a></li>
+                <div class="menu_open">
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </ul>
+
+        </nav>
+
+    </header>
+    <div class="page_btn">
+        <a href="mente.html">
+            <img class="calendar" src="img/top/calendar.png" alt="宿泊予約">
+            宿泊予約
+        </a>
+        <a href="#">
+            ページ先頭に戻る
+        </a>
+    </div>
+    <div id="contact">
+        <div class="contact_home">
+
+
+            <div class="cont_about wrapper">
+                <h2>Contact</h2>
+                <p>お問い合わせ</p>
+                <p>
+                    メールでのお問い合わせは、下記フォームに必要事項をご入力の上、送信ください。</p>
+                <form>
+                    <p>お問い合わせ項目<br>
+                        <select name="select" required>
+                            <option value="0"></option>
+                            <option value="1">ご宿泊・ご予約に関するお問い合わせ</option>
+                            <option value="2">温泉・施設に関するお問い合わせ</option>
+                            <option value="3">アクセス・その他のお問い合わせ</option>
+                        </select>
+                    </p>
+                    <p><label>お名前<br>
+                        <input type="text" required></label>
+                    </p>
+                    <p><label>ふりがな<br>
+                        <input type="text" required></label>
+                    </p>
+                    <p><label>会社所属名<br>
+                        <input type="text"></label>
+                    </p>
+                    <p><label>メールアドレス<br>
+                        <input type="email" required></label>
+                    </p>
+                    <p><label>電話番号<br>
+                        <input type="tel" required></label>
+                    </p>
+                    <p><label>お問い合わせ内容<br>
+                        <textarea name="textarea" required></textarea></label>
+                    </p>
+                    <p><input class="button" type="submit" value="送信"></p>
+                </form>
+            </div>
+
+
+
+            <footer>
+                <div class="footer_outer wrapper">
+                    <div class="footer_access">
+                        <img src="img/logo_white2.png" alt="メニューイメージ">
+                        <p>〒000-0000</p>
+                        <p>XX県XXX市○○○町</p>
+                        <a href="mente.html">宿泊予約</a>
+                    </div>
+                    <div class="footer_border"></div>
+                    <div class="footer_link_outer">
+                        <h3>風灯についてのご案内</h3>
+                        <div class="footer_link_inner">
+                            <a href="oheya.html" class="footer_link">
+                                <img src="img/footer/ryokan_footer1.jpg" alt="お部屋へのリンク">
+                                <p>お部屋</p>
+                            </a>
+                            <a href="ohuro.html" class="footer_link">
+                                <img src="img/footer/ryokan_footer3.jpg" alt="お風呂へのリンク">
+                                <p>お風呂</p>
+                            </a>
+                            <a href="syokuzi.html" class="footer_link">
+                                <img src="img/footer/ryokan_footer2.jpg" alt="お食事へのリンク">
+                                <p>お食事</p>
+                            </a>
+                            <div class="footer_meta">
+                                <p>チェックイン　15:00</p>
+                                <p>チェックアウト　10:00</p>
+                                <p>全◯室の小さな宿</p>
+                            </div>
+                        </div>
+                        <div class="footer_info">
+                            <a href="contact.html">お問い合わせ</a>
+                            <a href="mente.html">Instagram ｜風灯</a>
+                        </div>
+
+                        <small>&copy;huto,Inc</small>
+                    </div>
+
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

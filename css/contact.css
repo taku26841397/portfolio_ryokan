@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+#contact{
+    padding-top: 60px;
+    background-image: url(../img/contact/ryokan_contact.jpg);
+    background-size: cover;
+    font-weight: 600;
+    
+}
+
+
+
+
+.cont_about h2{
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: -20px;
+    position: relative;
+    margin-left: 30px;
+}
+.cont_about h2::before{
+    content: "";
+    width: 1px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+.cont_about p{
+    width: 500px;
+    margin-left: 30px;
+    line-height: 1.9;
+    margin-bottom: 50px;
+  
+}
+
+.contact_home{
+    width: 100%;
+    
+    background: rgba(238 234, 228,0.9);
+}
+form{
+    width:800px;
+    margin: 0 auto;
+  
+}
+input ,textarea,select{
+    border: 1px solid #4A4040;
+    width: 800px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+textarea{
+    height: 200px;
+}
+
+.button{
+    width: 200px;
+    background-color: #EEEAE4 ;
+    
+}
+
+
+

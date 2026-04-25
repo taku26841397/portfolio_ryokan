@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+#ohuro {
+    padding-top: 100px;
+}
+
+.ohuro_inner {
+    width: 420px;
+    height: 200px;
+    border-left: 2px solid #4a4040;
+    padding-left: 24px;
+    margin-bottom: 120px;
+}
+
+.ohuro_inner h2 {
+    font-size: 3rem;
+}
+
+.oheya_inner h2 p {
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+
+}
+
+.small_letter {
+    margin-bottom: 24px;
+}
+
+.ohuro_inner p {
+    font-size: 1.1rem;
+
+}
+
+.between_img img {
+    width: 100%;
+    height: 600px;
+}
+
+/* リンク */
+
+#type_link {
+    margin: 192px;
+}
+
+#type_link h2 {
+    font-size: 3rem;
+    position: relative;
+    margin-bottom: 48px;
+}
+
+#type_link h2::after {
+    content: "";
+    width: 600px;
+    height: 1px;
+    background-color: gainsboro;
+    position: absolute;
+    top: 50%;
+    left: 300px;
+
+}
+
+.type_link_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 120px;
+}
+
+.type_link .type {
+    width: 300px;
+}
+
+
+.type_01 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid gainsboro;
+    height: 360px;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px gainsboro;
+    cursor: pointer;
+}
+
+.type03 {
+    background-color: #f0da9e;
+}
+
+.type_01:hover {
+    box-shadow: none;
+    opacity: 0.7;
+    transform: translateY(1.05px);
+}
+
+.type_01:hover .link {
+    background-color: #000;
+    transition: all 1s;
+}
+
+.type_01:hover .yazorisi {
+    border-bottom: 1px solid #f7f5f2;
+    border-left: 1px solid #f7f5f2;
+    transition: all 1s;
+
+}
+
+.type_01 img {
+    width: 300px;
+    height: 200px;
+    border-radius: none;
+
+}
+
+.type_01 .type {
+    text-align: center;
+    margin: 8px;
+}
+
+.type_01 .title {
+    text-align: center;
+    margin: 8px;
+}
+
+.type_01 .desc {
+    text-align: center;
+    margin: 8px;
+    margin-bottom: 36px;
+}
+
+.link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #4a4040;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px auto;
+}
+
+.yazorisi {
+    height: 5px;
+    width: 5px;
+    border-bottom: 1px solid #305662;
+    border-left: 1px solid #305662;
+    transform: translate(0, 0) rotate(-45deg);
+
+
+}
+
+#type01,
+#type02,
+#type03 {
+    margin: 120px auto;
+}
+
+.type01_text {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.type01_img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+
+
+
+}
+
+.type01_img img {
+    width: 500px;
+    height: 300px;
+
+}
+
+#type01 .desc {
+    width: 900px;
+    margin: 48px auto;
+}
+
+#detail_outer {
+    background-color: beige;
+    height: 40vh;
+}
+
+#detail_outer:nth-last-child(2) {
+    background-color: #ede6d1;
+}
+
+.detail {
+    display: flex;
+    margin: 72px auto;
+}
+
+.detail .detail_text {
+    width: 500px;
+    margin-right: 5%;
+    margin-top: 24px;
+}
+
+.detail_text p:nth-of-type(2) {
+    margin: 12px auto;
+    letter-spacing: 0.2px;
+    line-height: 1.9;
+}
+
+.detail_text a {
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.detail_text a:hover {
+    background-color: #000;
+    color: #f7f5f2;
+    transition: all 1s;
+}
+
+/* 詳細 */
+
+table th {
+    width: 80px;
+}
+
+table td {
+    padding-left: 30px;
+}
+
+table th,
+table td {
+    border-bottom: 1px solid gainsboro;
+}
+
+
+/* アメニティ */
+#amenities {
+    margin: 120px auto;
+}
+
+.amenities_text {
+    text-align: center;
+
+}
+
+.amenities_text .desc {
+    margin: 24px auto;
+    font-size: 1.2rem;
+}
+
+.amenities_img {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.amenities_img img {
+    width: 600px;
+    height: 400px;
+}
+
+.amenities_img p {
+    width: 600px;
+    margin: 24px auto;
+}
