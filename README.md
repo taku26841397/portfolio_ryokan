@@ -15,6 +15,7 @@ JavaScript
 
 Render
 
+
 📌 ページ構成
 index.html：トップページ
 
@@ -34,7 +35,9 @@ js/：JavaScript
 
 img/：画像素材
 
+
 🎨 デザインのポイント
+
 旅館の雰囲気に合わせた落ち着いた配色
 
 JavaScriptによる動きのあるページ
@@ -46,16 +49,16 @@ JavaScriptによる動きのあるページ
 HTML / CSS の基本を押さえたシンプルな構造
 
 📁 フォルダ構成（画像の内容を反映）
-コード
 portfolio_ryokan/
-├── css/
-├── img/
-├── js/
-├── .gitattributes
-├── contact.html
-├── fabicon.png
-├── index.html
-├── mente.html
-├── oheya.html
-├── ohuro.html
-└── syokuzi.html
+- css/
+- img/
+- js/
+- contact.html
+- index.html
+- oheya.html
+- syokuzi.html
+- ohuro.html
+- mente.html
+- fabicon.png
+- .gitattributes
+
