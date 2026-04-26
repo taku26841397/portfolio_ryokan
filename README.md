@@ -14,7 +14,7 @@ https://portfolio-ryokan.pages.dev
 - HTML5
 - CSS3
 - JavaScript
-- Render（公開）
+- Cⅼοudflaгe（公開）
 
 ---
 
