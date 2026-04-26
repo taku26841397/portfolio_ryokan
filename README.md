@@ -3,6 +3,7 @@
 トップページ、客室紹介、食事、温泉、問い合わせフォームなど、
 実際の旅館サイトを想定した構成でデザインしました。
 
+<br>
 🌐 公開 URL
 https://portfolio-ryokan.pages.dev
 <br>
@@ -17,6 +18,7 @@ Render
 
 <br>
 📌 ページ構成
+<br>
 index.html：トップページ
 
 oheya.html：客室紹介
@@ -37,7 +39,7 @@ img/：画像素材
 <br>
 
 🎨 デザインのポイント
-
+<br>
 旅館の雰囲気に合わせた落ち着いた配色
 
 JavaScriptによる動きのあるページ
@@ -48,7 +50,10 @@ JavaScriptによる動きのあるページ
 
 HTML / CSS の基本を押さえたシンプルな構造
 <br>
+
 📁 フォルダ構成（画像の内容を反映）
+<br>
+
 portfolio_ryokan/
 - css/
 - img/
