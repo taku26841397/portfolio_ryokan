@@ -5,7 +5,7 @@
 
 🌐 公開 URL
 https://portfolio-ryokan.pages.dev
-
+<br>
 🛠 使用技術
 HTML5
 
@@ -15,7 +15,7 @@ JavaScript
 
 Render
 
-
+<br>
 📌 ページ構成
 index.html：トップページ
 
@@ -34,7 +34,7 @@ css/：スタイルシート
 js/：JavaScript
 
 img/：画像素材
-
+<br>
 
 🎨 デザインのポイント
 
@@ -47,7 +47,7 @@ JavaScriptによる動きのあるページ
 ナビゲーションを固定し、ページ間移動をスムーズに
 
 HTML / CSS の基本を押さえたシンプルな構造
-
+<br>
 📁 フォルダ構成（画像の内容を反映）
 portfolio_ryokan/
 - css/
