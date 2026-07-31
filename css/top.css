@@ -139,7 +139,8 @@
     position: absolute;
     top: 270px;
     width: 420px;
-    right: 10%;
+    right: 15%;
+
     line-height: 2.9rem;
     text-shadow: 0 2px 8px rgba(255, 255, 255, 0.9),
         0 0 3px rgba(0, 0, 0, 0.2);
